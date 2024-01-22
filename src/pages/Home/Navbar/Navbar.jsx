@@ -4,6 +4,7 @@ import {
   Button,
   Flex,
   HStack,
+  Heading,
   List,
   ListItem,
   Menu,
@@ -54,11 +55,18 @@ const Navbar = () => {
         </List>
       </Box>
       <Spacer />
-
+      <Heading
+        size={{ base: "sm", md: "md", lg: "lg" }}
+        color="#59e4a8"
+        fontFamily='Josefin Sans", sans-serif'
+      >
+        <NavLink to="/">Todolist</NavLink>
+      </Heading>
+      <Spacer />
       <HStack>
         {/* User info */}
         <Button
-          size={{ base: "sm", md: "md" }}
+          size={{ base: "xs", md: "sm", lg: "md" }}
           bg="#59e4a8"
           color="white"
           rounded="full"
