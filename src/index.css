@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+
+/* injecting custom font */
+*{
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+/* Customizing navroutes */
+
+#navroutes li a.active{
+  color: #59e4a8;
+  font-weight: 600;
+}
