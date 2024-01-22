@@ -1,0 +1,28 @@
+#loginform {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.loginLabel {
+  font-weight: 700;
+}
+
+.loginInput {
+  padding: 5px 5px;
+  outline: none;
+  background-color: rgba(89, 228, 168, 0.4);
+  border-radius: 5px;
+}
+
+.loginInput::placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+.loginButton {
+  padding: 5px 5px;
+  outline: none;
+  background-color: #59e4a8;
+  border-radius: 5px;
+}

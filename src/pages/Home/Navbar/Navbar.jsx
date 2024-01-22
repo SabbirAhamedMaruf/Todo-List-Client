@@ -13,7 +13,7 @@ import {
   MenuList,
   Spacer,
 } from "@chakra-ui/react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import "../../../index.css";
 
@@ -65,14 +65,18 @@ const Navbar = () => {
       <Spacer />
       <HStack>
         {/* User info */}
-        <Button
-          size={{ base: "xs", md: "sm", lg: "md" }}
-          bg="#59e4a8"
-          color="white"
-          rounded="full"
-        >
-          <NavLink>Login</NavLink>
-        </Button>
+
+        <Link to="/login">
+          <Button
+            size={{ base: "xs", md: "sm", lg: "md" }}
+            bg="#59e4a8"
+            color="white"
+            rounded="full"
+          >
+            Login
+          </Button>
+        </Link>
+
         <Avatar name="Dan Abrahmov" src="https://bit.ly/dan-abramov"></Avatar>
       </HStack>
     </Flex>

@@ -26,7 +26,7 @@ const Banner = () => {
         </Heading>
 
         {/* Banner button */}
-        <Button variant="none" w="200px" p="0px" mx="auto">
+        <Button variant="none" w="200px" mt="15px" mx="auto">
           <NavLink>
             <Box>
               <Player
